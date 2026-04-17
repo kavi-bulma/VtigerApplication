@@ -93,7 +93,7 @@ public class CreateOrganizationTest extends BaseClassUtilities {
 
 		// Create fileutil obj to generate random_no & attach it with
 		// orgname(tekPyramid_12)
-		String orgName = fileUtil.accessDataFromExcel("orgInfo", 1, 0) + "_" + jutil.getRandomNumber(100);
+		String orgName = fileUtil.accessDataFromExcel("orgInfo", 1, 0) + "_." + jutil.getRandomNumber(100);
 		String phone_num = fileUtil.accessDataFromExcel("orgInfo", 1, 1);
 		String industry_value = fileUtil.accessDataFromExcel("orgInfo", 1, 2);
 		String type_value = fileUtil.accessDataFromExcel("orgInfo", 1, 3);
