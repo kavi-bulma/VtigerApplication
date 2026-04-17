@@ -48,6 +48,7 @@ public class CreateContactTest extends BaseClassUtilities {
 		String contactInfor = contactInfoP.contact_information.getText();
 		boolean res = contactInfor.contains(fname);
 		sa.assertEquals(res, true);
+		System.out.println("create contact is done");
 	}
 
 	@Test
